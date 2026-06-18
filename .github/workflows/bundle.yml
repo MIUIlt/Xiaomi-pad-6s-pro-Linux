@@ -31,19 +31,19 @@ jobs:
         echo "⬇️ Download kernel packages"
         gh release download "kernel-7.1" \
           --pattern "*.deb" \
-          --repo "${{ github.repository }}" \
+          --repo "code002-2/Xiaomi-pad-6s-pro-Linux" \
           --clobber || true
 
         echo "⬇️ Download sheng_devauth"
         gh release download "sheng_devauth" \
           --pattern "*.deb" \
-          --repo "${{ github.repository }}" \
+          --repo "code002-2/Xiaomi-pad-6s-pro-Linuxv" \
           --clobber || true
 
         echo "⬇️ Download sensor"
         gh release download "sensor" \
           --pattern "*.deb" \
-          --repo "${{ github.repository }}" \
+          --repo "code002-2/Xiaomi-pad-6s-pro-Linux" \
           --clobber || true
 
         echo "📂 Final bundle:"
