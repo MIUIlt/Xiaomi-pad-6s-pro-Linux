@@ -37,7 +37,7 @@ jobs:
         echo "⬇️ Download sheng_devauth"
         gh release download "sheng_devauth" \
           --pattern "*.deb" \
-          --repo "code002-2/Xiaomi-pad-6s-pro-Linuxv" \
+          --repo "code002-2/Xiaomi-pad-6s-pro-Linux" \
           --clobber || true
 
         echo "⬇️ Download sensor"
